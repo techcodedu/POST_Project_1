@@ -1,0 +1,28 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.header,
+.footer {
+  background-color: red;
+  flex: 1; /* Adjust if you need a different size for the header/footer */
+}
+.main-content {
+  display: flex;
+  flex: 8; /* Adjusted for the combined ratio of green, white, and blue, including the header/footer */
+}
+.green {
+  background-color: green;
+  flex: 3; /* Takes up a portion of the main content space */
+}
+.white {
+  background-color: white;
+  flex: 2; /* Takes up a portion of the main content space */
+}
+.blue {
+  background-color: blue;
+  flex: 2; /* Takes up a portion of the main content space */
+}
