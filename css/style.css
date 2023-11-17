@@ -49,6 +49,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: 500;
+  margin-top: 50px;
 }
 
 /* footer */
@@ -78,5 +79,8 @@ body {
   }
 }
 @media (min-width: 1000px) {
- /* add nyo dito mam */
+  .content {
+    margin-top: 200px;
+    margin-left: 200px;
+  }
 }
