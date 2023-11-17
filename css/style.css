@@ -78,5 +78,15 @@ body {
   }
 }
 @media (min-width: 1000px) {
- /* add nyo dito mam */
+  /* add nyo dito mam */
+  .btn-order {
+    margin-top: 200px;
+    padding:30px 60px
+  }
+  .header-title {
+    margin-top:-210px
+  }
+  .image-container{
+    margin-top:250px
+  }
 }
